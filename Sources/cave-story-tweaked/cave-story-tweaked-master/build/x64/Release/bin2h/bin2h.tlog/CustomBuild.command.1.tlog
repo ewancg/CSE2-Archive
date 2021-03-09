@@ -1,0 +1,148 @@
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/bin2h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-DOWNLOAD.RULE
+setlocal
+cd C:\CSE2-tweaks-tweaks\build\bin2h-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-UPDATE.RULE
+setlocal
+cd C:\CSE2-tweaks-tweaks\bin2h
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-CONFIGURE.RULE
+setlocal
+cd C:\CSE2-tweaks-tweaks\build\bin2h-prefix\src\bin2h-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/CSE2-tweaks-tweaks/build/bin2h-prefix -DCMAKE_BUILD_TYPE=Release "-GVisual Studio 16 2019" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" C:/CSE2-tweaks-tweaks/bin2h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-BUILD.RULE
+setlocal
+cd C:\CSE2-tweaks-tweaks\build\bin2h-prefix\src\bin2h-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\2E2F33ECC504B33B32FCBC9C039428D9\BIN2H-INSTALL.RULE
+setlocal
+cd C:\CSE2-tweaks-tweaks\build\bin2h-prefix\src\bin2h-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\82A884D751CCE1D1C4785AF9AF907FAA\BIN2H-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/CSE2-tweaks-tweaks/build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/CMakeFiles/Release/bin2h-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-stamp/Release/bin2h-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\CMAKEFILES\6C57726426242DBDBB6523A909B395EF\BIN2H.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CSE2-TWEAKS-TWEAKS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
