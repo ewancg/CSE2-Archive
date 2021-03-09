@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>CSE2 Enhanced</name>
+  <coder>Cucky, Clownacy, GabrielRavier</coder>
+  <version>1.0</version>
+  <release_date>20200420000000</release_date>
+  <url>https://github.com/Clownacy/Cave-Story-Engine-2</url>
+  <short_description>Enhanced port of Cave Story</short_description>
+<long_description>An enhanced port of Cave Story to the Wii U!</long_description>
+<category>game</category>
+
+</app>
