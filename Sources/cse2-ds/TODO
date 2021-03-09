@@ -1,0 +1,20 @@
+Known issues:
+	game will hang when closing the lid enough times on ending
+	game will slow down when firing the spur near a sprinkler and in sand zone
+	The minimap doesn't work
+
+save profile.dat to memory
+
+fix credit bitmapreload
+
+move old libnds fifo sync code to here
+construct the minimap texture in memory
+
+vram viewer?
+
+savestates?
+
+local multiplayer??
+
+
+
