@@ -1,0 +1,114 @@
+==============
+= Cave Story =
+==============
+
+None of us are lawyers, but to my understanding...
+
+Being a decompilation, much of CSE2's code belongs to Daisuke "Pixel" Amaya.
+There was no licence supplied with the original freeware release, so presumably
+this code defaults to 'All Rights Reserved'.
+
+...I dunno - how many of *you* are fluent in international copyright law?
+
+
+====================================
+= Aeon Genesis Translation Project =
+====================================
+
+The English translation of Cave Story used here was created by Aeon Genesis.
+
+There doesn't appear to be any particular licence supplied with the translation,
+so it's likely all-rights-reserved.
+
+The supplied readme does contain these details:
+
+
+"Copyright 2005 Aeon Genesis"
+
+Also:
+
+"
+---------------
+3.Patch Credits
+---------------
+THE CAVE STORY TEAM
+Main Team:
+Gideon Zhi - Project leader, Hacker, Translation
+Shih Tzu - Lead script translator
+
+Special Thanks to...
+--Shih Tzu, for facilitating contact with Pixel himself
+--Pixel himself, for creating the game, allowing us to produce an
+  English version of it, and for putting up with what must have
+  seemed an awful amount of nagging questions on my part :) You've
+  got the patience of a saint, and this wouldn't be done without
+  you!
+--sandcrab, who produced an alternate translation of the text for
+  Pixel. It is, as yet, unpublished.
+--Tomato & Bugcatcher, for helping out on a couple tough bits in
+  the text. Cheers!
+"
+
+
+============================================
+= Vagrant Traducciones Spanish Translation =
+============================================
+
+The Spanish translation of Cave Story used here was created by Vagrant Traducciones.
+There doesn't appear to be any particular licence supplied with the translation,
+so it's likely all-rights-reserved.
+
+These credits were included in the readme (slightly modified to fit better):
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Miembros de Vagrant Traducciones:
+
+   	[Faloppa]       [Monicapo]	
+	[Axxel]	  	    [Blade133bo]
+	[Rigle]         [Eliseo09]
+	[Chopp2]        [SkybladeCloud]
+	[SergioParidas]
+	[ShySpy]	----> El autor de este parche
+
+Miembros honoríficos:
+
+	[Vegetal_Gibber]
+	[Lukas]
+
+WEB: 			http://vagrant.romhackhispano.org
+TWITTER:		http://twitter.com/vagrantTrans
+FACEBOOK:		http://www.facebook.com/profile.php?id=100000756671192&ref=ss
+CANAL YOUTUBE:	http://www.youtube.com/user/VagrantTraducciones
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+...
+------------------
+3. Agradecimientos
+------------------
+Muchísimas gracias a Pixel por este maravilloso juego y a Aeon Genesis por la cuidada traducción al inglés, en la cual me basé para hacer ésta al Castellano.
+
+También me gustaría dar las gracias a ciertas personas por ayudarme a corregir algunos errores o a traducir correctamente algunas cosas:
+- Krathos (amigo mío) y keitaro_j (elotrolado.net), por darse cuenta de ciertos fallos
+- Abesol (elotrolado.net), por ayudarme en algunas frases y nombres
+- jas1 (elotrolado.net), por darme a conocer los trainers, que me han ayudado a pasarme el juego más rápidamente mientras traducía
+- Otras personas del subforo de Pruebas en elotrolado.net (franKM, Rigle, etc.) por apoyarme y ayudarme en algunas dudas de traducción
+- Mi profesora de inglés, por confirmarme que ciertas frases estaban bien expresadas.
+- Vagrant Traducciones y en especial a Faloppa, por apoyarme y aceptarme en el grupo.
+
+
+========
+= CSE2 =
+========
+
+Currently we don't have a licence for our code. But, considering CSE2 is
+intended for modders, you can probably get away with using it for that without
+any of us getting mad over it.
+
+It might be worth crediting us, just to be safe - I (Clownacy) don't mind, but
+GabrielRavier does.
+
+
+============
+= FreeType =
+============
+
+Portions of this software are copyright © 2006-2020 The FreeType
+Project (www.freetype.org).  All rights reserved.
