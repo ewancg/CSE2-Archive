@@ -13,6 +13,7 @@ Pull requests are more than welcome for missing versions (i.e. missing forks of 
 	- Wii
 	- Emscripten
 - CSE2EX
+- CSE2 DS
 - Cave Story Tweaked
 
 <h3>&ensp;&ensp;Binaries</h3>
@@ -25,5 +26,8 @@ Pull requests are more than welcome for missing versions (i.e. missing forks of 
 		- 3DS
 		- Wii U
 		- Windows
+- CSE2 DS
+	- DS
+	- DSi
 - Cave Story Tweaked
 	- 3DS
