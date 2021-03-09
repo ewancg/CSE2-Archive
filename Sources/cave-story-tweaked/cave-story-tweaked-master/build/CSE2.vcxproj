@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15729EF3-89D7-3F4D-9B8A-4D93EB4290B0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CSE2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\game_spanish\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSE2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSE2_debug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\game_spanish\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSE2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSE2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\game_spanish\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CSE2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CSE2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\game_spanish\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CSE2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CSE2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\clownaudio\Debug\clownaudio.lib;external\SDL2\Debug\SDL2d.lib;external\freetype\Debug\freetyped.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CSE2-tweaks-tweaks/build/Debug/CSE2_debug.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CSE2-tweaks-tweaks/game_spanish/CSE2_debug.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\CSE2-tweaks-tweaks\assets\resources\CSE2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\clownaudio\Release\clownaudio.lib;external\SDL2\Release\SDL2.lib;external\freetype\Release\freetype.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CSE2-tweaks-tweaks/build/Release/CSE2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CSE2-tweaks-tweaks/game_spanish/CSE2.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\CSE2-tweaks-tweaks\assets\resources\CSE2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\clownaudio\MinSizeRel\clownaudio.lib;external\SDL2\MinSizeRel\SDL2.lib;external\freetype\MinSizeRel\freetype.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CSE2-tweaks-tweaks/build/MinSizeRel/CSE2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CSE2-tweaks-tweaks/game_spanish/CSE2.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\CSE2-tweaks-tweaks\assets\resources\CSE2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SPANISH;FIX_BUGS;FIX_MAJOR_BUGS;LANCZOS_RESAMPLER;FREETYPE_FONTS;EXTRA_SOUND_FORMATS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\clownaudio\include;C:\CSE2-tweaks-tweaks\build\export;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\build\external\freetype\include;C:\CSE2-tweaks-tweaks\external\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\clownaudio\RelWithDebInfo\clownaudio.lib;external\SDL2\RelWithDebInfo\SDL2.lib;external\freetype\RelWithDebInfo\freetype.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;advapi32.lib;setupapi.lib;shell32.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CSE2-tweaks-tweaks/build/RelWithDebInfo/CSE2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CSE2-tweaks-tweaks/game_spanish/CSE2.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\CSE2-tweaks-tweaks\assets\resources\CSE2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CSE2-tweaks-tweaks\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCXXCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeSystem.cmake;C:\CSE2-tweaks-tweaks\build\bin2h-prefix\tmp\bin2h-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCXXCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeSystem.cmake;C:\CSE2-tweaks-tweaks\build\bin2h-prefix\tmp\bin2h-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCXXCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeSystem.cmake;C:\CSE2-tweaks-tweaks\build\bin2h-prefix\tmp\bin2h-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeCXXCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;C:\CSE2-tweaks-tweaks\build\CMakeFiles\3.19.0\CMakeSystem.cmake;C:\CSE2-tweaks-tweaks\build\bin2h-prefix\tmp\bin2h-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindFreetype.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\CSE2-tweaks-tweaks\assets\resources\CSE2.rc" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\ArmsItem.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\ArmsItem.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Back.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Back.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Bitmap.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Bitmap.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Boss.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Boss.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossAlmo1.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossAlmo1.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossAlmo2.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossAlmo2.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossBallos.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossBallos.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossFrog.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossFrog.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossIronH.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossIronH.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossLife.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossLife.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossOhm.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossOhm.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossPress.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossPress.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossTwinD.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossTwinD.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BossX.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BossX.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\BulHit.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\BulHit.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Bullet.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Bullet.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Caret.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Caret.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\CommonDefines.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Config.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Config.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Draw.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Draw.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Ending.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Ending.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Escape.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Escape.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Fade.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Fade.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\File.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\File.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Flags.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Flags.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Flash.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Flash.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Font.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Font.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Frame.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Frame.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Game.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Game.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Generic.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Generic.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\GenericLoad.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\GenericLoad.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Input.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Input.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\KeyControl.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\KeyControl.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Main.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Main.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Map.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Map.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\MapName.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\MapName.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\MiniMap.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\MiniMap.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\MyChar.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\MyChar.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\MycHit.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\MycHit.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\MycParam.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\MycParam.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\NpcAct.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct000.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct020.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct040.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct060.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct080.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct100.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct120.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct140.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct160.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct180.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct200.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct220.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct240.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct260.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct280.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct300.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct320.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcAct340.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpChar.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\NpChar.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcHit.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\NpcHit.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\NpcTbl.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\NpcTbl.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Organya.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Organya.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Pause.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Pause.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\PixTone.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\PixTone.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Profile.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Profile.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Random.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Random.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Resource.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Resource.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\SelStage.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\SelStage.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Shoot.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Shoot.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Sound.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Sound.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Stage.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Stage.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Star.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Star.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\TextScr.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\TextScr.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Triangle.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Triangle.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\ValueView.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\ValueView.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\WindowsWrapper.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Controller.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Misc.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Rendering.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Rendering\SDLTexture.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio\SoftwareMixer.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio\SoftwareMixer\Mixer.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio\SoftwareMixer\Mixer.h" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio\SoftwareMixer\Backend.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Audio\SoftwareMixer\SDL2.cpp">
+      <ObjectFileName>$(IntDir)/src/Backends/Audio/SoftwareMixer/SDL2.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Controller\SDL.cpp" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\Backends\Platform\SDL2.cpp">
+      <ObjectFileName>$(IntDir)/src/Backends/Platform/SDL2.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\Backends\Shared\SDL.h" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\src\ExtraSoundFormats.cpp" />
+    <ClInclude Include="C:\CSE2-tweaks-tweaks\src\ExtraSoundFormats.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CSE2-tweaks-tweaks\build\ZERO_CHECK.vcxproj">
+      <Project>{A3727331-1DC7-301A-9ED1-6476F24B4D3B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\CSE2-tweaks-tweaks\build\external\SDL2\SDL2-static.vcxproj">
+      <Project>{06C7E45E-899F-3380-9056-BDF232439F7E}</Project>
+      <Name>SDL2-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CSE2-tweaks-tweaks\build\external\clownaudio\clownaudio.vcxproj">
+      <Project>{43FEB7CF-C79C-3DBE-919E-A7337C1B33B7}</Project>
+      <Name>clownaudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CSE2-tweaks-tweaks\build\external\freetype\freetype.vcxproj">
+      <Project>{79EDDBD1-FF5F-311A-BCB3-83A0AAE2DB3C}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

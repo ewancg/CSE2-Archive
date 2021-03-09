@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/CSE2-tweaks-tweaks/external/SDL2/CMakeLists.txt
+C:/CSE2-tweaks-tweaks/external/SDL2/cmake/macros.cmake
+C:/CSE2-tweaks-tweaks/external/SDL2/cmake/sdlchecks.cmake
+C:/CSE2-tweaks-tweaks/external/SDL2/cmake_uninstall.cmake.in
+C:/CSE2-tweaks-tweaks/external/SDL2/include/SDL_config.h.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake

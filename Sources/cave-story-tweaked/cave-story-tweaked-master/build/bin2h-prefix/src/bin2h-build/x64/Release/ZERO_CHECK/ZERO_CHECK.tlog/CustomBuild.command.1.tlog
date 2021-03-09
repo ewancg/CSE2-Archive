@@ -1,0 +1,10 @@
+^C:\CSE2-TWEAKS-TWEAKS\BUILD\BIN2H-PREFIX\SRC\BIN2H-BUILD\CMAKEFILES\93FF8B63E75BA08168CB516C4B8A1148\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks/bin2h -BC:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/CSE2-tweaks-tweaks/build/bin2h-prefix/src/bin2h-build/bin2h.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\CSE2-TWEAKS-TWEAKS\EXTERNAL\CLOWNAUDIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/external/clownaudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

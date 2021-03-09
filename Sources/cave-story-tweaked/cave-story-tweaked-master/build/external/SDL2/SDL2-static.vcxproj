@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{06C7E45E-899F-3380-9056-BDF232439F7E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>SDL2-static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2-static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2-static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2-static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2-static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\SDL2\src\hidapi\hidapi;C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\SDL2\src\hidapi\hidapi;C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\SDL2\src\hidapi\hidapi;C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\external\SDL2\src\hidapi\hidapi;C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;SDL_STATIC;USING_GENERATED_CONFIG_H;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\CSE2-tweaks-tweaks\build\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\include;C:\CSE2-tweaks-tweaks\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CSE2-tweaks-tweaks\external\SDL2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/external/SDL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/external/SDL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\external\SDL2\cmake\macros.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake\sdlchecks.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake_uninstall.cmake.in;C:\CSE2-tweaks-tweaks\external\SDL2\include\SDL_config.h.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/external/SDL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/external/SDL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\external\SDL2\cmake\macros.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake\sdlchecks.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake_uninstall.cmake.in;C:\CSE2-tweaks-tweaks\external\SDL2\include\SDL_config.h.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/external/SDL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/external/SDL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\external\SDL2\cmake\macros.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake\sdlchecks.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake_uninstall.cmake.in;C:\CSE2-tweaks-tweaks\external\SDL2\include\SDL_config.h.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/CSE2-tweaks-tweaks/external/SDL2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CSE2-tweaks-tweaks -BC:/CSE2-tweaks-tweaks/build --check-stamp-file C:/CSE2-tweaks-tweaks/build/external/SDL2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\external\SDL2\cmake\macros.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake\sdlchecks.cmake;C:\CSE2-tweaks-tweaks\external\SDL2\cmake_uninstall.cmake.in;C:\CSE2-tweaks-tweaks\external\SDL2\include\SDL_config.h.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CSE2-tweaks-tweaks\build\external\SDL2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL_assert.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL_dataqueue.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL_error.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL_hints.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\SDL_log.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\atomic\SDL_atomic.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\atomic\SDL_spinlock.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_audio.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_audiocvt.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_audiodev.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_audiotypecvt.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_mixer.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\SDL_wave.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\cpuinfo\SDL_cpuinfo.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\dynapi\SDL_dynapi.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_clipboardevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_displayevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_dropevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_events.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_gesture.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_keyboard.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_mouse.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_quit.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_touch.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\events\SDL_windowevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\file\SDL_rwops.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_atan2.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_exp.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_fmod.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_log.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_log10.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_pow.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_rem_pio2.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\e_sqrt.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\k_cos.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\k_rem_pio2.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\k_sin.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\k_tan.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_atan.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_copysign.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_cos.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_fabs.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_floor.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_scalbn.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_sin.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\libm\s_tan.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\SDL_d3dmath.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\SDL_render.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\SDL_yuv_sw.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\direct3d\SDL_render_d3d.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\direct3d\SDL_shaders_d3d.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\direct3d11\SDL_render_d3d11.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\direct3d11\SDL_shaders_d3d11.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\opengl\SDL_render_gl.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\opengl\SDL_shaders_gl.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\opengles\SDL_render_gles.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\opengles2\SDL_render_gles2.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\opengles2\SDL_shaders_gles2.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\psp\SDL_render_psp.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_blendfillrect.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_blendline.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_blendpoint.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_drawline.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_drawpoint.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_render_sw.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\render\software\SDL_rotate.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_getenv.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_iconv.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_malloc.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_qsort.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_stdlib.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_string.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\stdlib\SDL_strtokr.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\SDL_thread.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\timer\SDL_timer.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_RLEaccel.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_0.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_1.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_A.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_N.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_auto.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_copy.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_blit_slow.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_bmp.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_clipboard.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_egl.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_fillrect.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_pixels.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_rect.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_shape.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_stretch.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_surface.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_video.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_vulkan_utils.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\SDL_yuv.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\yuv2rgb\yuv_rgb.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\SDL_gamecontroller.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\SDL_joystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\haptic\SDL_haptic.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\sensor\SDL_sensor.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\power\SDL_power.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\dummy\SDL_dummyaudio.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\disk\SDL_diskaudio.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\dummy\SDL_nullevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\dummy\SDL_nullframebuffer.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\dummy\SDL_nullvideo.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\core\windows\SDL_windows.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\core\windows\SDL_xinput.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\winmm\SDL_winmm.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\directsound\SDL_directsound.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\wasapi\SDL_wasapi.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\audio\wasapi\SDL_wasapi_win32.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsclipboard.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsevents.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsframebuffer.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowskeyboard.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsmessagebox.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsmodes.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsmouse.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsopengl.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsopengles.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsshape.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsvideo.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowsvulkan.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\video\windows\SDL_windowswindow.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\windows\SDL_sysmutex.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\windows\SDL_syssem.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\windows\SDL_systhread.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\windows\SDL_systls.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\thread\generic\SDL_syscond.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\power\windows\SDL_syspower.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\filesystem\windows\SDL_sysfilesystem.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\timer\windows\SDL_systimer.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\loadso\windows\SDL_sysloadso.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_gamecube.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_ps4.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_rumble.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_steam.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_switch.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_xbox360.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_xbox360w.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapi_xboxone.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\hidapi\SDL_hidapijoystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\hidapi\windows\hid.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\windows\SDL_dinputjoystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\windows\SDL_mmjoystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\windows\SDL_windowsjoystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\joystick\windows\SDL_xinputjoystick.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\haptic\windows\SDL_dinputhaptic.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\haptic\windows\SDL_windowshaptic.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\haptic\windows\SDL_xinputhaptic.c" />
+    <ClCompile Include="C:\CSE2-tweaks-tweaks\external\SDL2\src\sensor\dummy\SDL_dummysensor.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CSE2-tweaks-tweaks\build\ZERO_CHECK.vcxproj">
+      <Project>{A3727331-1DC7-301A-9ED1-6476F24B4D3B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
