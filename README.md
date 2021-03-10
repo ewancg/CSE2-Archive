@@ -31,3 +31,5 @@ Pull requests are more than welcome for missing versions (i.e. missing forks of 
 	- DSi
 - Cave Story Tweaked
 	- 3DS
+
+Please let it be known that though all the current forks are provided under the MIT license, that is subject to change as this repository grows. Beware of the licenses of each of the forks. For this reason, forks with non-permissive licenses (determined by the ability to redistribute & modify) will be deliberately excluded to respect the terms under which they were provided.
