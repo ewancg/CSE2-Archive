@@ -14,7 +14,7 @@ If you wanted to download all the sources:
 
 If you wanted to download just 1 binary:
 
-`https://github.com/EwanGreen4/CSE2-Archive/tree/main/Binaries/cse2/cse2-enhanced/windows/English`
+`/github-downloader https://github.com/EwanGreen4/CSE2-Archive/tree/main/Binaries/cse2/cse2-enhanced/windows/English`
 
 <h2 align="center">Structure</h2>
 <h3>&ensp;&ensp;Sources</h3>
