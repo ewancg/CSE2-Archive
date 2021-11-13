@@ -40,6 +40,8 @@ If you wanted to download just 1 binary:
 		- 3DS
 		- Wii U
 		- Windows
+    - Accurate v2.2
+        - Windows
 - CSE2 DS
 	- DS
 	- DSi
